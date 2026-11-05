@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://toolora-org.github.io/Toolora/</loc>
+    </url>
+    <url>
+        <loc>https://toolora-org.github.io/Toolora/tools-password/password.html</loc>
+    </url>
+    <url>
+        <loc>https://toolora-org.github.io/Toolora/tools-qr-code/qr-code.html</loc>
+    </url>
+    <url>
+        <loc>https://toolora-org.github.io/Toolora/tools-word-counter/word-counter.html</loc>
+    </url>
+    <url>
+        <loc>https://toolora-org.github.io/Toolora/tools-percentage/percentage.html</loc>
+    </url>
+    <url>
+        <loc>https://toolora-org.github.io/Toolora/tools-random/random.html</loc>
+    </url>
+    <url>
+        <loc>https://toolora-org.github.io/Toolora/tools-unit-converter/unit.html</loc>
+    </url>
+</urlset>
