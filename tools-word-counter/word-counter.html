@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Word Counter | Toolora</title>
+
+    <link rel="stylesheet" href="word-counter.css">
+</head>
+<body>
+
+    <header class="wc-header">
+        <a href="../index.html" class="back-home">← Back Home</a>
+    </header>
+
+    <main class="wc-container">
+
+        <h1>Word Counter</h1>
+        <p>Count words and characters instantly.</p>
+
+        <textarea
+            id="textInput"
+            placeholder="Start typing or paste your text here..."
+        ></textarea>
+
+        <div class="wc-stats">
+
+            <div class="stat-card">
+                <span id="wordCount">0</span>
+                <p>Words</p>
+            </div>
+
+            <div class="stat-card">
+                <span id="charCount">0</span>
+                <p>Characters</p>
+            </div>
+
+            <div class="stat-card">
+                <span id="charNoSpaces">0</span>
+                <p>Without spaces</p>
+            </div>
+
+            <div class="stat-card">
+                <span id="lineCount">0</span>
+                <p>Lines</p>
+            </div>
+
+        </div>
+
+        <div class="reading-time">
+            Reading time: <span id="readingTime">0 min</span>
+        </div>
+
+        <button id="clearBtn">Clear Text</button>
+
+    </main>
+
+    <script src="word-counter.js" defer></script>
+
+</body>
+</html>

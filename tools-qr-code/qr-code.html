@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator - Toolora</title>
+    <link rel="stylesheet" href="qr-code.css">
+</head>
+<body>
+
+    <header class="qr-header">
+    <a href="../index.html" class="back-home">
+        ← Back Home
+    </a>
+</header>
+    <main class="qr-container">
+        <h1>QR Code Generator</h1>
+        <p>Generate QR codes for links and text.</p>
+
+        <input type="text" id="qrInput" placeholder="Enter text or URL">
+
+        <button id="generateBtn">Generate QR</button>
+
+        <div id="qrcode"></div>
+
+        <button id="downloadBtn">Download PNG</button>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="qr-code.js"></script>
+</body>
+</html>

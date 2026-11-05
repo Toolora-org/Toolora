@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Percentage Calculator | Toolora</title>
+
+    <link rel="stylesheet" href="percentage.css">
+</head>
+<body>
+
+    <header class="pc-header">
+        <a href="../index.html" class="back-home">← Back Home</a>
+    </header>
+
+    <main class="pc-container">
+
+        <h1>Percentage Calculator</h1>
+        <p>Calculate percentages quickly and easily.</p>
+
+        <section class="calculator">
+            <h2>Percentage of a number</h2>
+
+            <input type="number" id="percent" placeholder="Percentage">
+            <input type="number" id="number" placeholder="Number">
+
+            <button id="calculateBtn">Calculate</button>
+
+            <div class="result" id="result">Result: 0</div>
+        </section>
+
+        <section class="calculator">
+            <h2>What percentage is X of Y?</h2>
+
+            <input type="number" id="valueX" placeholder="Value X">
+            <input type="number" id="valueY" placeholder="Value Y">
+
+            <button id="calculateRatioBtn">Calculate</button>
+
+            <div class="result" id="ratioResult">Result: 0%</div>
+        </section>
+
+        <section class="calculator">
+            <h2>Increase or decrease by percentage</h2>
+
+            <input type="number" id="baseNumber" placeholder="Original number">
+            <input type="number" id="changePercent" placeholder="Percentage">
+
+            <select id="operation">
+                <option value="increase">Increase</option>
+                <option value="decrease">Decrease</option>
+            </select>
+
+            <button id="changeBtn">Calculate</button>
+
+            <div class="result" id="changeResult">Result: 0</div>
+        </section>
+
+    </main>
+
+    <script src="percentage.js" defer></script>
+
+</body>
+</html>

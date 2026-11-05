@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background:
+        radial-gradient(circle at 20% 20%, #30205c 0%, transparent 40%),
+        radial-gradient(circle at 80% 80%, #24134d 0%, transparent 40%),
+        #0d0b16;
+}
+
+.random-header {
+    padding: 25px 8%;
+}
+
+.back-home {
+    display: inline-block;
+    padding: 10px 18px;
+    border: 1px solid #8b5cf6;
+    border-radius: 8px;
+    color: #c4a7ff;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.back-home:hover {
+    background: #8b5cf6;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.random-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.random-container h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.random-container > p {
+    color: #aaa;
+    margin-bottom: 35px;
+}
+
+.random-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 30px;
+    text-align: left;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.random-card label {
+    display: block;
+    margin: 18px 0 8px;
+    color: #ddd;
+}
+
+.random-card input {
+    width: 100%;
+    padding: 13px;
+    border-radius: 9px;
+    border: 1px solid #39304f;
+    background: #171321;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+.random-card input:focus {
+    border-color: #9b70ff;
+}
+
+.random-card button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(135deg, #8b5cf6, #6536cf);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.random-card button:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.15);
+}
+
+.random-result {
+    margin-top: 25px;
+    padding: 22px;
+    border-radius: 12px;
+    background: rgba(139, 92, 246, 0.12);
+    text-align: center;
+}
+
+.random-result span {
+    color: #aaa;
+    font-size: 14px;
+}
+
+#result {
+    margin-top: 12px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #c4a7ff;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 500px) {
+    .random-container h1 {
+        font-size: 25px;
+    }
+
+    .random-card {
+        padding: 20px;
+    }
+}
